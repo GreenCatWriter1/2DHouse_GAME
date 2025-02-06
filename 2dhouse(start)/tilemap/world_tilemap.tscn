@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://7bx8m8utdmtx"]
+
+[sub_resource type="TileSet" id="TileSet_8pebn"]
+tile_shape = 1
+tile_size = Vector2i(460, 460)
+
+[node name="world_tilemap" type="TileMap"]
+tile_set = SubResource("TileSet_8pebn")
+format = 2
+layer_0/y_sort_enabled = true
